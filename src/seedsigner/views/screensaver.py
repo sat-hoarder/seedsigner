@@ -69,7 +69,7 @@ class OpeningSplashScreen(LogoScreen):
             # Set up the partner logo
             partner_logo: Image.Image = self.partner_logos[self.get_random_partner()]
             font = Fonts.get_font(GUIConstants.TOP_NAV_TITLE_FONT_NAME, GUIConstants.BODY_FONT_SIZE)
-            sponsor_text = "With support from:"
+            sponsor_text = "GFY"
             (left, top, tw, th) = font.getbbox(sponsor_text, anchor="lt")
 
             x = int((self.renderer.canvas_width) / 2)
